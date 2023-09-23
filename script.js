@@ -2,5 +2,5 @@
 
 const btnElement = document.getElementById('btnElement');
 btnElement.addEventListener('click', () => {
-  setTimeout(console.log('Hello World'), 3000);
+  setTimeout(() => console.log('Hello World'), 3000);
 });
