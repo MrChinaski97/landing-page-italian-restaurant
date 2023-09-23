@@ -217,6 +217,16 @@ ul li a {
   text-align: center;
 }
 
+.btn:hover,
+.btn:focus {
+  transform: scale(1.2);
+  background-color: #ff4136;
+  border: 1px solid #ff4136;
+  border-radius: 3px;
+  color: #fff;
+  transition: all 0.5s cubic-bezier(0.16, 0.1, 0.69, 1.1);
+}
+
 .about-section-container {
   margin-top: 8rem;
 }
@@ -440,14 +450,6 @@ footer {
 
   .btn {
     align-self: center;
-  }
-
-  .btn:hover,
-  .btn:focus {
-    transform: scale(1.2);
-    background-color: #ff4136;
-    border: 1px solid #ff4136;
-    color: #fff;
   }
 
   .about-section-text {
